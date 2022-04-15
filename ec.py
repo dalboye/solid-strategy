@@ -34,9 +34,8 @@ if __name__ == '__main__':
     #image_directory = input("Please enter the directory that may contain the image: ")
 
     image_name = "kus.jpeg"
-    image_directory = "/Users/lg48np/Projects/dp-examples/easy_cartonify/pictures/"
+    image_directory = "pictures/"
 
-    os.chdir(Path(image_directory))
     cartoon_style_selection = input("This script currently has 2 sytles. Please type 1 or 2. ")
     
     cartonify = Cartonify(image_directory, image_name)
